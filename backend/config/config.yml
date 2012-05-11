@@ -1,0 +1,39 @@
+imports:
+    - { resource: "../../config/project.yml" }
+    - { resource: security.yml }
+
+jms_security_extra:
+     expressions: true
+
+knp_menu:
+    twig: true
+
+admingenerator_generator:
+    base_admin_template: AdmingeneratorActiveAdminThemeBundle::base_admin_assetic_less.html.twig
+    use_propel: true
+      
+trsteel_ckeditor:
+    class: Trsteel\CkeditorBundle\Form\CkeditorType
+    toolbar: ['document', 'clipboard', 'editing', '/', 'basicstyles', 'paragraph', 'links', '/', 'insert', 'styles', 'tools']
+    toolbar_groups:
+        document: ['Source','-','Save','-','Templates']
+        clipboard: ['Cut','Copy','Paste','PasteText','PasteFromWord','-','Undo','Redo']
+        editing: ['Find','Replace','-','SelectAll']
+        basicstyles: ['Bold','Italic','Underline','Strike','Subscript','Superscript','-','RemoveFormat']
+        paragraph: ['NumberedList','BulletedList','-','Outdent','Indent','-','JustifyLeft', 'JustifyCenter','JustifyRight','JustifyBlock']
+        links: ['Link','Unlink','Anchor']
+        insert: ['Image','Flash','Table','HorizontalRule']
+        styles: ['Styles','Format']
+        tools: ['Maximize', 'ShowBlocks']
+    startup_outline_blocks: false
+    width: 800 #Integer or %
+    height: 300 #Integer or %
+    language: 'fr-fr'
+    
+fos_user:
+    service:
+        mailer: fos_user.mailer.noop
+    user_class: FOS\UserBundle\Propel\UserProxy
+    propel_user_class: FOS\UserBundle\Propel\User
+    db_driver: propel
+    firewall_name: main

@@ -1,0 +1,6 @@
+imports:
+    - { resource: config.yml }
+    - { resource: "../../config/project_dev.yml" }
+    
+admingenerator_generator:
+    overwrite_if_exists: true

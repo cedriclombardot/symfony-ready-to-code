@@ -1,14 +1,12 @@
 {
-    "name": "symfony/framework-standard-edition",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "name": "cedriclombardot/symfony-ready-to-code",
+    "description": "A symfony ready to code version",
     "autoload": {
         "psr-0": { "": "src/" }
     },
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.1.*",
-        "doctrine/orm": "2.2.*",
-        "doctrine/doctrine-bundle": "dev-master",
         "twig/extensions": "dev-master",
         "symfony/assetic-bundle": "dev-master",
         "symfony/swiftmailer-bundle": "dev-master",
@@ -17,7 +15,48 @@
         "sensio/framework-extra-bundle": "dev-master",
         "sensio/generator-bundle": "dev-master",
         "jms/security-extra-bundle": "1.1.*",
-        "jms/di-extra-bundle": "1.0.*"
+        "jms/di-extra-bundle": "1.0.*",
+        "propel/propel-bundle": "1.1.x-dev",
+        "propel/propel1": "1.6.5",
+        "pear-phing/phing": "2.4.6",
+        "cedriclombardot/admingenerator-activeadmintheme-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "dev-master",
+        "cedriclombardot/admingenerator-user-bundle": "dev-master",
+        "white-october/pagerfanta-bundle": "dev-master",
+        "Trsteel/ckeditor-bundle": "dev-master"
+    },
+    "require-dev": {
+        "behat/behat-bundle": "dev-master",
+        "behat/mink-bundle": "dev-master",
+        "behat/sahi-client": "dev-master",
+        "zendframework/zendframework": "dev-master"
+    },
+    "repositories": {
+        "phing": {
+            "type": "pear",
+            "url": "http://pear.phing.info"
+        },
+        "goutte": {
+            "type": "package",
+            "package": {
+                "name": "fabpot/goutte",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git://github.com/fabpot/Goutte.git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Goutte": "src/"
+                    }
+                }
+            }
+        },
+        "sensio-distribution-bundle": {
+            "type": "vcs",
+            "url": "git://github.com/cedriclombardot/SensioDistributionBundle.git"
+        }
     },
     "scripts": {
         "post-install-cmd": [
@@ -35,7 +74,7 @@
         "bin-dir": "bin"
     },
     "extra": {
-        "symfony-app-dir": "app",
+        "symfony-app-dir": [ "frontend", "backend" ],
         "symfony-web-dir": "web"
     }
 }

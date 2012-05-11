@@ -1,0 +1,3 @@
+imports:
+    - { resource: "../../config/project.yml" }
+    - { resource: security.yml }

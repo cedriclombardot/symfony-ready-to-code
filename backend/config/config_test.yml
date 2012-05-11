@@ -1,0 +1,6 @@
+imports:
+    - { resource: config_dev.yml }
+    - { resource: "../../config/project_test.yml" }
+
+mink:
+    base_url:   http://example.local/frontend_test.php
