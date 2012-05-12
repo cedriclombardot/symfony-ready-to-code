@@ -1,10 +1,10 @@
 {
-    "hash": "0ca334bd2da8662aaa045b55ad0f1c56",
+    "hash": "ce0ce7fd01126a57bc3d0dfec62d3c96",
     "packages": [
         {
             "package": "Trsteel/ckeditor-bundle",
             "version": "dev-master",
-            "source-reference": "2197e14f2c199c7d0df235bbab7b1fea1a30a527"
+            "source-reference": "e2ffb396964724a9c91e26f7d83be7449bef6b04"
         },
         {
             "package": "cedriclombardot/admingenerator-activeadmintheme-bundle",
@@ -76,14 +76,14 @@
         {
             "package": "kriswallsmith/assetic",
             "version": "dev-master",
-            "source-reference": "1a1b5f963db158a1065343fab617d25ce351a2dc"
+            "source-reference": "1a1b5f963db158a1065343fab617d25ce351a2dc",
+            "alias-pretty-version": "1.1.x-dev",
+            "alias-version": "1.1.9999999.9999999-dev"
         },
         {
             "package": "kriswallsmith/assetic",
             "version": "dev-master",
-            "source-reference": "1a1b5f963db158a1065343fab617d25ce351a2dc",
-            "alias-pretty-version": "1.1.x-dev",
-            "alias-version": "1.1.9999999.9999999-dev"
+            "source-reference": "1a1b5f963db158a1065343fab617d25ce351a2dc"
         },
         {
             "package": "monolog/monolog",
@@ -110,7 +110,7 @@
         {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "77b7e8fabfb47ab81014759e59dd82f56f6c62f9"
+            "source-reference": "d1ca11dfe165a72b19633c466bae02c9e03cc868"
         },
         {
             "package": "sensio/framework-extra-bundle",
@@ -147,14 +147,14 @@
         {
             "package": "symfony/swiftmailer-bridge",
             "version": "dev-master",
-            "source-reference": "463536de4b149e1560bd764582cbf50dc9936ebd"
+            "source-reference": "509901cb13f43a6319a55804f787d206aa649ab4",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
         },
         {
             "package": "symfony/swiftmailer-bridge",
             "version": "dev-master",
-            "source-reference": "463536de4b149e1560bd764582cbf50dc9936ebd",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "source-reference": "509901cb13f43a6319a55804f787d206aa649ab4"
         },
         {
             "package": "symfony/swiftmailer-bundle",
@@ -164,12 +164,12 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "dd0da03c8c883832af94923b38a856c186ba808c"
+            "source-reference": "e1934527424732305f931739f02510b186d880fe"
         },
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "dd0da03c8c883832af94923b38a856c186ba808c",
+            "source-reference": "e1934527424732305f931739f02510b186d880fe",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
         },
@@ -181,19 +181,24 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "e445192f06f9b590a694819dc20ba5c891f3c6cf"
+            "source-reference": "d661c2a2f654ba8f2bddeeac0b8a80dcd59649ab",
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "e445192f06f9b590a694819dc20ba5c891f3c6cf",
-            "alias-pretty-version": "1.9.x-dev",
-            "alias-version": "1.9.9999999.9999999-dev"
+            "source-reference": "d661c2a2f654ba8f2bddeeac0b8a80dcd59649ab"
         },
         {
             "package": "white-october/pagerfanta-bundle",
             "version": "dev-master",
             "source-reference": "60d98f508010b0fab6a93bf079be39f4c9537f7c"
+        },
+        {
+            "package": "willdurand/propel-typehintable-behavior",
+            "version": "dev-master",
+            "source-reference": "1.0.0"
         }
     ],
     "packages-dev": null,

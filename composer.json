@@ -18,6 +18,7 @@
         "jms/di-extra-bundle": "1.0.*",
         "propel/propel-bundle": "1.1.x-dev",
         "propel/propel1": "1.6.5",
+        "willdurand/propel-typehintable-behavior": "dev-master",
         "pear-phing/phing": "2.4.6",
         "cedriclombardot/admingenerator-activeadmintheme-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "dev-master",
