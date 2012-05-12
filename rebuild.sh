@@ -17,7 +17,7 @@ php frontend/console propel:sql:insert --force --connection=default
 # php frontend/console propel:fixtures:load --dir=src/You/YourBundle/Resources/Fixtures/ --connection=default
 
 # Create the demo user fos
-#php app/console fos:user:create admin admin@demo.com admin
-#php app/console fos:user:promote admin ROLE_ADMIN
-#php app/console fos:user:create user user@demo.com user
+#php backend/console fos:user:create admin admin@demo.com admin
+#php backend/console fos:user:promote admin ROLE_ADMIN
+#php backend/console fos:user:create user user@demo.com user
 
