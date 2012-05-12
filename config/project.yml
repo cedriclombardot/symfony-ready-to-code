@@ -38,7 +38,7 @@ assetic:
 # Propel Configuration
 propel:
     path:       "%kernel.root_dir%/../vendor/propel/propel1"
-    phing_path: "%kernel.root_dir%/../vendor/pear-phing/phing"
+    phing_path: "%kernel.root_dir%/../vendor/pear-phing"
     dbal:
         connections:
             default:
