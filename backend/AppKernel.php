@@ -1,5 +1,8 @@
 <?php
 
+// For propel / doctrine uploads : getUploadRootDir() => __DIR__.'/../../../../web/', KERNEL_DIR.'/../web/'
+define('KERNEL_DIR', __DIR__);
+
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
