@@ -4,7 +4,7 @@
         {
             "package": "Trsteel/ckeditor-bundle",
             "version": "dev-master",
-            "source-reference": "e2ffb396964724a9c91e26f7d83be7449bef6b04"
+            "source-reference": "6b6087f0d209e4865edb17dad9988000ab11cb1d"
         },
         {
             "package": "cedriclombardot/admingenerator-activeadmintheme-bundle",
@@ -14,7 +14,7 @@
         {
             "package": "cedriclombardot/admingenerator-generator-bundle",
             "version": "dev-master",
-            "source-reference": "1c15ae77618286ec2e0b732f6af8b12a9bae37c6"
+            "source-reference": "a44e3b87151c5d464efd201616ba6f7aa0d094c3"
         },
         {
             "package": "cedriclombardot/admingenerator-user-bundle",
@@ -34,7 +34,7 @@
         {
             "package": "friendsofsymfony/user-bundle",
             "version": "dev-master",
-            "source-reference": "6fb81861d84d460f1d070ceb8ec180aac841f7fa"
+            "source-reference": "e89f354c8ae8cfb0399834bcfec493aec175ad54"
         },
         {
             "package": "jms/aop-bundle",
@@ -58,20 +58,13 @@
         },
         {
             "package": "knplabs/knp-menu",
-            "version": "dev-master",
-            "source-reference": "724511a46a0b8978986ff2b2bfa8712fba3f5bbb"
-        },
-        {
-            "package": "knplabs/knp-menu",
-            "version": "dev-master",
-            "source-reference": "724511a46a0b8978986ff2b2bfa8712fba3f5bbb",
-            "alias-pretty-version": "1.1.x-dev",
-            "alias-version": "1.1.9999999.9999999-dev"
+            "version": "1.1.x-dev",
+            "source-reference": "v1.1.1"
         },
         {
             "package": "knplabs/knp-menu-bundle",
             "version": "dev-master",
-            "source-reference": "f3a73c821ee1eea8326e1a46dc3316bb62be55f9"
+            "source-reference": "v1.1.0"
         },
         {
             "package": "kriswallsmith/assetic",
@@ -110,7 +103,7 @@
         {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
-            "source-reference": "d1ca11dfe165a72b19633c466bae02c9e03cc868"
+            "source-reference": "f3f55a13f6cd5290f0336668e53209a292dd569f"
         },
         {
             "package": "sensio/framework-extra-bundle",
@@ -164,12 +157,12 @@
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "e1934527424732305f931739f02510b186d880fe"
+            "source-reference": "1e15f2109633723b710e87184643cad88004b1b9"
         },
         {
             "package": "symfony/symfony",
             "version": "dev-master",
-            "source-reference": "e1934527424732305f931739f02510b186d880fe",
+            "source-reference": "1e15f2109633723b710e87184643cad88004b1b9",
             "alias-pretty-version": "2.1.x-dev",
             "alias-version": "2.1.9999999.9999999-dev"
         },
@@ -181,19 +174,19 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "d661c2a2f654ba8f2bddeeac0b8a80dcd59649ab",
-            "alias-pretty-version": "1.9.x-dev",
-            "alias-version": "1.9.9999999.9999999-dev"
+            "source-reference": "875fa010ce597edf97c04ce6490be950068e9372"
         },
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "d661c2a2f654ba8f2bddeeac0b8a80dcd59649ab"
+            "source-reference": "875fa010ce597edf97c04ce6490be950068e9372",
+            "alias-pretty-version": "1.8.x-dev",
+            "alias-version": "1.8.9999999.9999999-dev"
         },
         {
             "package": "white-october/pagerfanta-bundle",
             "version": "dev-master",
-            "source-reference": "60d98f508010b0fab6a93bf079be39f4c9537f7c"
+            "source-reference": "752653b8c3a8e0c1034eec23485a5d9126b8ca51"
         },
         {
             "package": "willdurand/propel-typehintable-behavior",
@@ -204,5 +197,26 @@
     "packages-dev": null,
     "aliases": [
 
-    ]
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "twig/extensions": 20,
+        "symfony/assetic-bundle": 20,
+        "symfony/swiftmailer-bundle": 20,
+        "symfony/monolog-bundle": 20,
+        "sensio/distribution-bundle": 20,
+        "sensio/framework-extra-bundle": 20,
+        "sensio/generator-bundle": 20,
+        "propel/propel-bundle": 20,
+        "willdurand/propel-typehintable-behavior": 20,
+        "cedriclombardot/admingenerator-activeadmintheme-bundle": 20,
+        "friendsofsymfony/user-bundle": 20,
+        "cedriclombardot/admingenerator-user-bundle": 20,
+        "white-october/pagerfanta-bundle": 20,
+        "trsteel/ckeditor-bundle": 20,
+        "behat/behat-bundle": 20,
+        "behat/mink-bundle": 20,
+        "behat/sahi-client": 20,
+        "zendframework/zendframework": 20
+    }
 }
