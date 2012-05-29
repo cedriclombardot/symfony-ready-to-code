@@ -1,5 +1,5 @@
 imports:
-    - { resource: "../../config/project.yml" }
+    - { resource: "../../commons/config/project.yml" }
     - { resource: security.yml }
 
 jms_security_extra:
@@ -11,7 +11,7 @@ knp_menu:
 admingenerator_generator:
     base_admin_template: AdmingeneratorActiveAdminThemeBundle::base_admin_assetic_less.html.twig
     use_propel: true
-      
+
 trsteel_ckeditor:
     class: Trsteel\CkeditorBundle\Form\CkeditorType
     toolbar: ['document', 'clipboard', 'editing', '/', 'basicstyles', 'paragraph', 'links', '/', 'insert', 'styles', 'tools']
@@ -29,7 +29,7 @@ trsteel_ckeditor:
     width: 800 #Integer or %
     height: 300 #Integer or %
     language: 'fr-fr'
-    
+
 fos_user:
     service:
         mailer: fos_user.mailer.noop

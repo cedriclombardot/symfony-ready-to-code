@@ -24,7 +24,8 @@
         "friendsofsymfony/user-bundle": "dev-master",
         "cedriclombardot/admingenerator-user-bundle": "dev-master",
         "white-october/pagerfanta-bundle": "dev-master",
-        "Trsteel/ckeditor-bundle": "dev-master"
+        "Trsteel/ckeditor-bundle": "dev-master",
+        "vbardales/multiple-app-kernel-bundle": "dev-master"
     },
     "require-dev": {
         "behat/behat-bundle": "dev-master",
