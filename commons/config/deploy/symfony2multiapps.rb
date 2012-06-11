@@ -72,7 +72,7 @@ namespace :symfony do
         apps.each do | app |
           logger.important "Build all and load for #{app}"
           set :symfony_console, app + '/console'
-          symfony.propel.build.all_and_load
+          symfony.propel.build.all_and_load_one
         end
       end
 
