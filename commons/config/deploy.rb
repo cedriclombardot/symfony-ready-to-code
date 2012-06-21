@@ -30,5 +30,3 @@ set :use_composer, true
 
 set :apps, %w(frontend backend)
 
-set :symfony_version, symfony_version_2_1
-
