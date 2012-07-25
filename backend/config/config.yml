@@ -33,7 +33,6 @@ trsteel_ckeditor:
 fos_user:
     service:
         mailer: fos_user.mailer.noop
-    user_class: FOS\UserBundle\Propel\UserProxy
-    propel_user_class: FOS\UserBundle\Propel\User
+    user_class: FOS\UserBundle\Propel\User
     db_driver: propel
     firewall_name: main

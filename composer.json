@@ -1,5 +1,6 @@
 {
     "name": "cedriclombardot/symfony-ready-to-code",
+    "minimum-stability": "dev",
     "description": "A symfony ready to code version",
     "autoload": {
         "psr-0": { "": "src/" }
