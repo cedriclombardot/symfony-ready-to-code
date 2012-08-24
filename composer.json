@@ -18,9 +18,8 @@
         "jms/security-extra-bundle": "1.1.*",
         "jms/di-extra-bundle": "1.0.*",
         "propel/propel-bundle": "1.1.x-dev",
-        "propel/propel1": "1.6.5",
+        "propel/propel1": "dev-master",
         "willdurand/propel-typehintable-behavior": "dev-master",
-        "pear-phing/phing": "2.4.6",
         "cedriclombardot/admingenerator-activeadmintheme-bundle": "dev-master",
         "friendsofsymfony/user-bundle": "dev-master",
         "cedriclombardot/admingenerator-user-bundle": "dev-master",
@@ -35,10 +34,6 @@
         "zendframework/zendframework": "dev-master"
     },
     "repositories": {
-        "phing": {
-            "type": "pear",
-            "url": "http://pear.phing.info"
-        },
         "goutte": {
             "type": "package",
             "package": {
