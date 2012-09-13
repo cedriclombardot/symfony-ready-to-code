@@ -13,11 +13,11 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
         '::1',
     ))
 ) {
-    header('HTTP/1.0 403 Forbidden');
-    exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');
+ //   header('HTTP/1.0 403 Forbidden');
+ //   exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');
 }
 
-require_once __DIR__.'/../frontend/bootstrap.php.cache';
+require_once __DIR__.'/../commons/bootstrap.php.cache';
 require_once __DIR__.'/../frontend/AppKernel.php';
 
 use Symfony\Component\HttpFoundation\Request;

@@ -17,7 +17,7 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
     exit('You are not allowed to access this file. Check '.basename(__FILE__).' for more information.');
 }
 
-require_once __DIR__.'/../backend/bootstrap.php.cache';
+require_once __DIR__.'/../commons/bootstrap.php.cache';
 require_once __DIR__.'/../backend/AppKernel.php';
 
 use Symfony\Component\HttpFoundation\Request;
