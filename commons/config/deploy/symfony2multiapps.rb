@@ -1,4 +1,4 @@
-load Gem.find_files('symfony2.rb').last.to_s
+require 'capifony_symfony2'
 
 set :apps, []
 
@@ -79,4 +79,5 @@ namespace :symfony do
     end
   end
 end
+
 
