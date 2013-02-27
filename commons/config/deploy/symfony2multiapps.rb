@@ -3,6 +3,19 @@ require 'capifony_symfony2'
 set :apps, []
 
 namespace :symfony do
+  namespace :assetic do
+    alias_task :dump_one, :dump
+
+    desc "Install assets for all apps"
+    task :dump do
+      apps.each do | app |
+        logger.important "Dump assets for #{app}"
+        set :symfony_console, app + '/console'
+        symfony.assetic.dump_one
+      end
+    end
+  end
+  
   namespace :assets do
     alias_task :install_one, :install
 
